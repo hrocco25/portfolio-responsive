@@ -224,8 +224,7 @@ header nav ul li {
  .project-three,
  .project-four,
  .project-five,
- .project-six,
- .project-seven{
+ .project-six{
   margin: 10% 0;
   border: black solid .2em;
   
@@ -246,6 +245,13 @@ header nav ul li {
   align-items: center;
   flex-flow: column wrap;
  }
+
+ .about-me{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: column wrap;
+}
 
  #about img{
    width: 70%;
@@ -438,6 +444,110 @@ flex-flow: column wrap;
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (min-width: 768px){
+/*tablet*/
+
+/*general*/
+
+.content-wrapper{
+  width: 100%;
+}
+
+/*main*/
+
+.main{
+  min-height: 350px;
+}
+
+/*portfolio*/
+
+.projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.project-one, .project-two, .project-three, .project-four, .project-five, .project-six{
+  width: 42%;
+  
+}
+
+.project-one, .project-three, .project-five{
+  margin: 2.5% 2.5% 0 0;
+}
+
+.project-two, .project-four, .project-six{
+  margin: 2.5% 0 0 2.5%;
+}
+
+/*about*/
+
+.about-me{
+  flex-flow: row wrap;
+}
+
+#about .about-me img{
+  width: 40%;
+  margin: 0 2.5% 0 0;
+}
+
+.about-me h4{
+  width: 40%;
+  margin: 0 0 0 2.5%;
+}
+
+/*skills*/
+
+.skills{
+  margin: 10% 0 0 0;
+}
+
+.skill-one, .skill-two, .skill-three, .skill-four, .skill-five{
+  width: 30%;
+  padding: 0;
+}
+
+#about .skills img{
+  width: 70%;
+  max-height: 10em;
+}
+
+.skill-four{
+  margin: 0 0 0 15%;
+}
+
+.skill-five{
+  margin:  0 15% 0 0;
+}
+
+/*contact*/
+
+.location{
+  margin:  0 0 0 7%;
+  width: 40%;
+}
+
+.logos{
+  align-items: center;
+  padding: 0;
+  margin: 0 15% 0 0;
+}
+
+#contact a{
+  max-height: 5em;
+  max-width: 5em;
+}
+
+
+}
+
+@media only screen and (min-width: 1200px){
+
+
+
 }
 
 @media print,
