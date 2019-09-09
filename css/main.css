@@ -253,11 +253,12 @@ header nav ul li {
    flex-flow: column wrap;
 }
 
- #about img{
+ .about-me img{
    width: 70%;
-   border: .05em black solid;
+   border: .08em black solid;
    
  }
+
 
  .skills{
   display: flex;
@@ -268,6 +269,7 @@ header nav ul li {
 
  .skills img{
   max-height: 5em;
+  width:70%;
  }
 
  .skill-one, .skill-two, .skill-three, .skill-four, .skill-five{
@@ -502,6 +504,10 @@ ul{
   min-height: 350px;
 }
 
+.main h2{
+  margin-top: 1%;
+}
+
 /*portfolio*/
 
 .projects{
@@ -546,6 +552,7 @@ ul{
 #about .about-me img{
   width: 40%;
   margin: 0 2.5% 0 0;
+  border: .2em solid black;
 }
 
 .about-me h4{
@@ -556,7 +563,7 @@ ul{
 /*skills*/
 
 .skills{
-  margin: 10% 0 0 0;
+  margin: 10% 5% 0 5%;
 }
 
 .skill-one, 
@@ -569,7 +576,7 @@ ul{
 }
 
 #about .skills img{
-  width: 70%;
+  width: 50%;
   max-height: 10em;
 }
 
