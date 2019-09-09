@@ -137,7 +137,7 @@ textarea {
 
   
 
-  h2, h4, p{
+  h2, h3, h4, p{
     text-align: center;
 
   }
@@ -305,6 +305,10 @@ header nav ul li {
   align-items: center;
 }
 
+#contact .content-wrapper{
+  margin: 7% 0 7% 0;
+}
+
 .location-logo{
   display: flex;
   justify-content: space-between;
@@ -314,10 +318,24 @@ header nav ul li {
   width: 50%;
 }
 
+.location h3{
+  margin: 0;
+}
+
+.location ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: 0;
+}
+
+
+
 .logos{
   display: flex;
   justify-content: space-between;
-  padding: 7% 5% 0 0;
+  padding: 7% 10% 0 0;
 }
 
 #contact a{
@@ -451,6 +469,29 @@ flex-flow: column wrap;
 
 /*general*/
 
+h1{
+  font-size: 4em;
+}
+
+h2{
+  font-size: 2.2em;
+}
+
+h3{
+  font-size: 2em;
+}
+
+h4, 
+h5{
+  font-size: 1.2em;
+}
+
+p, 
+ul{
+  font-size: 1.4em;
+}
+
+
 .content-wrapper{
   width: 100%;
 }
@@ -470,16 +511,25 @@ flex-flow: column wrap;
   flex-flow: row wrap;
 }
 
-.project-one, .project-two, .project-three, .project-four, .project-five, .project-six{
+.project-one, 
+.project-two, 
+.project-three, 
+.project-four, 
+.project-five, 
+.project-six{
   width: 42%;
   
 }
 
-.project-one, .project-three, .project-five{
+.project-one, 
+.project-three, 
+.project-five{
   margin: 2.5% 2.5% 0 0;
 }
 
-.project-two, .project-four, .project-six{
+.project-two, 
+.project-four, 
+.project-six{
   margin: 2.5% 0 0 2.5%;
 }
 
@@ -487,6 +537,10 @@ flex-flow: column wrap;
 
 .about-me{
   flex-flow: row wrap;
+}
+
+#about h2{
+  margin: 10% 0 7% 0;
 }
 
 #about .about-me img{
@@ -505,7 +559,11 @@ flex-flow: column wrap;
   margin: 10% 0 0 0;
 }
 
-.skill-one, .skill-two, .skill-three, .skill-four, .skill-five{
+.skill-one, 
+.skill-two, 
+.skill-three, 
+.skill-four, 
+.skill-five{
   width: 30%;
   padding: 0;
 }
